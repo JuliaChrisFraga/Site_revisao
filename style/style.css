@@ -1,0 +1,56 @@
+body {
+    font-size: xx-large;
+}
+
+main {
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+}
+
+section {
+    width: 350px;
+}
+
+#details {
+    width: 220;
+}
+
+#perfil {
+    text-align: center;
+    color: antiquewhite;
+    background-color: orangered;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    text-align: center;
+    margin-top: 100px;
+    background-color: rgb(49, 48, 48);
+}
+
+button {
+    border: orangered 2px solid;
+    border-radius: 40px;
+    width: 250px;
+    height: 65px;
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Lucida Sans Unicode';
+}
+
+button:hover {
+    background-color: rgb(221, 218, 218);
+    border-color: rgb(158, 45, 4);
+}
+
+#botao {
+    text-align: center;
+}
