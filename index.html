@@ -14,10 +14,9 @@
         <main>
             <section id="details">
                 <h3> <strong> Detalhes </strong> </h3>
-                <ul>
-                    <li> <strong> Nome: </strong> <br> Julia Christina </li>
-                    <li> <strong> Idade: </strong> <br> 17 anos </li>
-                    <li> <strong> Local: </strong> <br> Brasil, São Paulo, Piracaia </li>
+                    <p> <strong> Nome: </strong> <br> Julia Christina </p>
+                    <p> <strong> Idade: </strong> <br> 17 anos </p>
+                    <p> <strong> Local: </strong> <br> Brasil, São Paulo, Piracaia </p>
                 </ul>
                 <img src="facebook">
                 <img src="twitter">
@@ -27,9 +26,7 @@
                 <h3> Sobre mim </h3>
                 <p> Eu sou um web designer completo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod libero a laoreet tristique. Proin efficitur, dui et dapibus interdum, mi dui vulputate urna, vitae aliquam lectus ligula et risus. Phasellus varius fringilla turpis vel tincidunt.  </p>
                 <p style="color:gray;"> Imagem por <u style="cursor: pointer;">Freepik</u> </p>
-                <div id="botao"> 
-                    <button> Contate-me </button>
-                </div>
+                <button id="botao"> Contate-me </button>
             </section>
             <section id="perfil">
                 <br>
@@ -38,6 +35,9 @@
                 <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur euismod libero a laoreet tristique. Proin efficitur, dui et dapibus interdum, mi dui vulputate urna, vitae aliquam lectus ligula et risus. Phasellus varius fringilla turpis vel tincidunt. </p>
             </section>
         </main>
+        <div style="margin-top:100px">
+            <button id="modo-toggle"> Mudar modo </button>
+        </div>
         <footer>
             <img src="facebook">
             <img src="twitter">
@@ -46,4 +46,12 @@
             <p> Direitos reservados </p>
         </footer>
     </body>
+    <script>
+        const button = document.getElementById('modo-toggle');
+        const body = document.body;
+
+        button.addEventListener('click', () => {
+            body.classList.toggle('darkMode');
+        }); 
+    </script>
 </html>
