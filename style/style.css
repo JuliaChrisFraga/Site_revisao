@@ -95,3 +95,8 @@ footer {
     background-color: var(--cor-de-fundo2);
     color: var(--cor-texto2)
 }
+
+#redes {
+    width: 20px;
+    height: 20px;
+}
